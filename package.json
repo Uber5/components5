@@ -2,9 +2,19 @@
   "name": "components5",
   "version": "0.0.1",
   "description": "An attempt to build components, using a systematic approach (a design system?)",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/Uber5/components5.git",
   "author": "chris@uber5.com",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "mdx-go": "^1.1.10"
+  }
 }
