@@ -18,5 +18,9 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "mdx-go": "^1.1.10"
+  },
+  "dependencies": {
+    "rebass": "^3.0.0-8",
+    "styled-components": "^3.4.6"
   }
 }

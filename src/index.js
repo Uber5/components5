@@ -1,6 +1,5 @@
 import React from 'react'
-
-export const Dummy = props => <div>
-  <div>This is a dummy...</div>
-  {props.children}
-</div>
+import { Box } from 'rebass'
+export const Dummy = ({ children, ...props }) => <Box {...props}>
+  {children}
+</Box>
