@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "babel src --out-dir lib"
+    "build": "babel src --out-dir lib",
+    "start": "mdx-go docs",
+    "docs": "mdx-go build docs -d site"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
