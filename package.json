@@ -1,6 +1,6 @@
 {
   "name": "components5",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An attempt to build components, using a systematic approach (a design system?)",
   "main": "lib/index.js",
   "repository": "https://github.com/Uber5/components5.git",
